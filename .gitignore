@@ -4,3 +4,7 @@ node_modules/
 *.iml
 .DS_Store
 target/
+.project
+.settings/
+.vscode/
+.classpath
