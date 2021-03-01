@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.vaadin.fleahy</groupId>
-    <artifactId>camera_capture</artifactId>
-    <version>2.0-SNAPSHOT</version>
-    <name>Camera Capture</name>
-    <description>Integration of webcam for Vaadin 14</description>
+    <artifactId>camera_capture_flow_new</artifactId>
+    <version>1.0.0</version>
+    <name>Camera Capture Flow</name>
+    <description>Integration of webcam for Vaadin 14, based on https://github.com/gilberto-torrezan/camera-capture-flow </description>
 
     <properties>
         <vaadin.version>14.4.8</vaadin.version>
@@ -167,6 +167,7 @@
                         </executions>
                         <configuration>
                             <quiet>true</quiet>
+                            <detectJavaApiLink>false</detectJavaApiLink>
                             <additionalparam>-Xdoclint:none</additionalparam>
                         </configuration>
                     </plugin>
